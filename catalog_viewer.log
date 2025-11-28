@@ -1,0 +1,133 @@
+[2025-11-25 15:49:29] ==== Aplicação iniciada (main) ====
+[2025-11-25 15:49:29] Inicializando CatalogApp...
+[2025-11-25 15:49:29] Caminho de config: C:\ProjetosDev\managment\catalog_viewer_config.json
+[2025-11-25 15:49:29] Configuração carregada com sucesso.
+[2025-11-25 15:49:29] Estado restaurado: data_source=online, local_metadata_path=metadata.json, last_selected_tech_name=ZEAM_OBJPG_MAINTENANCEORDER_SRV
+[2025-11-25 15:49:29] Construindo UI...
+[2025-11-25 15:49:29] UI construída.
+[2025-11-25 15:49:29] Tentando restaurar geometry salva: 1920x1009+52+52
+[2025-11-25 15:49:29] Janela criada com geometry inicial: 1x1+52+52
+[2025-11-25 15:49:29] Checando sessão...
+[2025-11-25 15:49:29] Resultado da verificação de sessão: True (expira em 2025-11-26T15:07:13.167893)
+[2025-11-25 15:49:29] Sessão ainda válida. Pulando tela de login.
+[2025-11-25 15:49:29] auto_load_on_start chamado. Carregando serviços...
+[2025-11-25 15:49:29] load_services chamado. Fonte=online
+[2025-11-25 15:49:29] Configuração salva.
+[2025-11-25 15:49:29] Carregando serviços online em: https://fiori.usga.com.br:8001/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection?$format=json
+[2025-11-25 15:49:29] Geometry após inicialização: 1920x1009+52+52
+[2025-11-25 15:49:31] Erro ao carregar serviços online: 401 Client Error: Unauthorized for url: https://fiori.usga.com.br:8001/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection?$format=json
+[2025-11-25 15:49:32] Fonte de dados alterada para: local
+[2025-11-25 15:49:32] Configuração salva.
+[2025-11-25 15:49:55] Arquivo de metadata local selecionado: C:/ProjetosDev/managment/metadata.json
+[2025-11-25 15:49:55] Configuração salva.
+[2025-11-25 15:50:04] load_services chamado. Fonte=local
+[2025-11-25 15:50:04] Configuração salva.
+[2025-11-25 15:50:04] Carregando serviços localmente a partir de: C:/ProjetosDev/managment/metadata.json
+[2025-11-25 15:50:04] Normalização de serviços concluída. 624 registros processados.
+[2025-11-25 15:50:04] Quantidade de serviços carregados localmente: 624
+[2025-11-25 15:50:04] Atualizando treeview de serviços...
+[2025-11-25 15:50:04] Selecionando serviço índice 104 automaticamente.
+[2025-11-25 15:50:04] Exibindo detalhes para serviço: ZEAM_OBJPG_MAINTENANCEORDER_SRV
+[2025-11-25 15:50:04] Configuração salva.
+[2025-11-25 15:50:04] Usuário clicou no serviço índice 104.
+[2025-11-25 15:50:04] Exibindo detalhes para serviço: ZEAM_OBJPG_MAINTENANCEORDER_SRV
+[2025-11-25 15:50:04] Configuração salva.
+[2025-11-25 15:50:21] Usuário cancelou seleção de arquivo de $metadata local.
+[2025-11-25 15:50:29] Carregando $metadata online de: https://fiori.usga.com.br:8001/sap/opu/odata/sap/EAM_OBJPG_MAINTENANCEORDER_SRV/$metadata
+[2025-11-25 15:50:30] $metadata recebido (tamanho 589275 bytes).
+[2025-11-25 15:50:30] Exibindo $metadata na UI. Fonte: $metadata carregado de: https://fiori.usga.com.br:8001/sap/opu/odata/sap/EAM_OBJPG_MAINTENANCEORDER_SRV/$metadata
+[2025-11-25 15:50:30] Iniciando parse do XML do $metadata...
+[2025-11-25 15:50:30] Parse de $metadata concluído: 132 EntitySets, 132 EntityTypes.
+[2025-11-25 15:50:31] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.OrderTypeImage
+[2025-11-25 15:50:33] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_EAMProductQuickVwType
+[2025-11-25 15:51:15] Carregando $metadata online de: https://fiori.usga.com.br:8001/sap/opu/odata/sap/EAM_OBJPG_MAINTENANCEORDER_SRV/$metadata
+[2025-11-25 15:51:16] $metadata recebido (tamanho 589275 bytes).
+[2025-11-25 15:51:16] Exibindo $metadata na UI. Fonte: $metadata carregado de: https://fiori.usga.com.br:8001/sap/opu/odata/sap/EAM_OBJPG_MAINTENANCEORDER_SRV/$metadata
+[2025-11-25 15:51:16] Iniciando parse do XML do $metadata...
+[2025-11-25 15:51:16] Parse de $metadata concluído: 132 EntitySets, 132 EntityTypes.
+[2025-11-25 15:51:24] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_JobPckgBuildTypeGrpgCritraVHType
+[2025-11-25 15:51:26] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintChecklistValueHelpType
+[2025-11-25 15:51:27] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_JobPckgBuildTypeGrpgCritraVHType
+[2025-11-25 15:51:28] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintChecklistValueHelpType
+[2025-11-25 15:51:29] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintenanceObjectStatusType
+[2025-11-25 15:51:36] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintenanceOrderPhaseVHType
+[2025-11-25 15:51:37] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintenancePlannerGroupVHType
+[2025-11-25 15:51:38] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintenancePlanPlantVHType
+[2025-11-25 15:51:39] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintenancePlanQuickVwType
+[2025-11-25 15:51:49] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintInspChkListCharcType
+[2025-11-25 15:51:51] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintJobPckgBuildTypeVHType
+[2025-11-25 15:51:52] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintNotificationQuickVwType
+[2025-11-25 15:52:04] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintObjUserStatusWthStsNmbrType
+[2025-11-25 15:52:33] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintOrdProcessingContextVHType
+[2025-11-25 15:52:34] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintOrdProcPhaseVHType
+[2025-11-25 15:52:35] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_MaintPrioSmltdDatesType
+[2025-11-25 15:52:37] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_ObjPgMaintOrderOpMaterialType
+[2025-11-25 15:52:39] EntityType selecionado: EAM_OBJPG_MAINTENANCEORDER_SRV.C_PMWorkReqReporterVHType
+[2025-11-25 15:53:32] Usuário clicou no serviço índice 489.
+[2025-11-25 15:53:32] Exibindo detalhes para serviço: ZUI_RAP_STATUSUSINA_O2
+[2025-11-25 15:53:32] Configuração salva.
+[2025-11-25 15:53:36] Carregando $metadata online de: https://fiori.usga.com.br:8001/sap/opu/odata/sap/ZUI_RAP_STATUSUSINA_O2/$metadata
+[2025-11-25 15:53:36] $metadata recebido (tamanho 35933 bytes).
+[2025-11-25 15:53:36] Exibindo $metadata na UI. Fonte: $metadata carregado de: https://fiori.usga.com.br:8001/sap/opu/odata/sap/ZUI_RAP_STATUSUSINA_O2/$metadata
+[2025-11-25 15:53:36] Iniciando parse do XML do $metadata...
+[2025-11-25 15:53:36] Parse de $metadata concluído: 13 EntitySets, 13 EntityTypes.
+[2025-11-25 15:53:40] EntityType selecionado: cds_zui_rap_statususina.ParadasType
+[2025-11-25 15:53:47] EntityType selecionado: cds_zui_rap_statususina.SAP__Currency
+[2025-11-25 15:53:50] EntityType selecionado: cds_zui_rap_statususina.SAP__UnitOfMeasure
+[2025-11-25 15:53:52] EntityType selecionado: cds_zui_rap_statususina.SAP__DocumentDescription
+[2025-11-25 15:53:57] EntityType selecionado: cds_zui_rap_statususina.SAP__Format
+[2025-11-25 15:53:58] EntityType selecionado: cds_zui_rap_statususina.SAP__PDFStandard
+[2025-11-25 15:53:59] EntityType selecionado: cds_zui_rap_statususina.SAP__TableColumns
+[2025-11-25 15:54:00] EntityType selecionado: cds_zui_rap_statususina.SAP__CoverPage
+[2025-11-25 15:54:00] EntityType selecionado: cds_zui_rap_statususina.SAP__Signature
+[2025-11-25 15:54:01] EntityType selecionado: cds_zui_rap_statususina.SAP__Hierarchy
+[2025-11-25 15:54:02] EntityType selecionado: cds_zui_rap_statususina.SAP__PDFHeader
+[2025-11-25 15:54:06] EntityType selecionado: cds_zui_rap_statususina.SAP__PDFFooter
+[2025-11-25 15:54:07] EntityType selecionado: cds_zui_rap_statususina.SAP__ValueHelp
+[2025-11-25 15:54:08] EntityType selecionado: cds_zui_rap_statususina.SAP__PDFFooter
+[2025-11-25 15:54:09] EntityType selecionado: cds_zui_rap_statususina.SAP__PDFHeader
+[2025-11-25 15:54:10] EntityType selecionado: cds_zui_rap_statususina.SAP__Hierarchy
+[2025-11-25 15:54:10] EntityType selecionado: cds_zui_rap_statususina.SAP__Signature
+[2025-11-25 15:54:10] EntityType selecionado: cds_zui_rap_statususina.SAP__CoverPage
+[2025-11-25 15:54:11] EntityType selecionado: cds_zui_rap_statususina.SAP__TableColumns
+[2025-11-25 15:54:11] EntityType selecionado: cds_zui_rap_statususina.SAP__PDFStandard
+[2025-11-25 15:54:12] EntityType selecionado: cds_zui_rap_statususina.SAP__Format
+[2025-11-25 15:54:12] EntityType selecionado: cds_zui_rap_statususina.SAP__DocumentDescription
+[2025-11-25 15:54:13] EntityType selecionado: cds_zui_rap_statususina.SAP__UnitOfMeasure
+[2025-11-25 15:54:13] EntityType selecionado: cds_zui_rap_statususina.SAP__Currency
+[2025-11-25 15:54:13] EntityType selecionado: cds_zui_rap_statususina.ParadasType
+[2025-11-25 15:54:26] Fechando aplicação. Salvando configuração e destruindo janela.
+[2025-11-25 15:54:26] Configuração salva.
+[2025-11-25 15:54:26] Aplicação finalizada (mainloop encerrado).
+[2025-11-26 09:04:34] ==== Aplicação iniciada (main) ====
+[2025-11-26 09:04:34] Inicializando CatalogApp...
+[2025-11-26 09:04:35] Caminho de config: C:\ProjetosDev\managment\catalog_viewer_config.json
+[2025-11-26 09:04:35] Configuração carregada com sucesso.
+[2025-11-26 09:04:35] Estado restaurado: data_source=local, local_metadata_path=C:/ProjetosDev/managment/metadata.json, last_selected_tech_name=ZUI_RAP_STATUSUSINA_O2
+[2025-11-26 09:04:35] Construindo UI...
+[2025-11-26 09:04:35] UI construída.
+[2025-11-26 09:04:35] Tentando restaurar geometry salva: 1920x1009+52+52
+[2025-11-26 09:04:35] Janela criada com geometry inicial: 1x1+52+52
+[2025-11-26 09:04:35] Checando sessão...
+[2025-11-26 09:04:35] Resultado da verificação de sessão: True (expira em 2025-11-26T15:07:13.167893)
+[2025-11-26 09:04:35] Sessão ainda válida. Pulando tela de login.
+[2025-11-26 09:04:35] auto_load_on_start chamado. Carregando serviços...
+[2025-11-26 09:04:35] load_services chamado. Fonte=local
+[2025-11-26 09:04:35] Configuração salva.
+[2025-11-26 09:04:35] Carregando serviços localmente a partir de: C:/ProjetosDev/managment/metadata.json
+[2025-11-26 09:04:35] Normalização de serviços concluída. 624 registros processados.
+[2025-11-26 09:04:35] Quantidade de serviços carregados localmente: 624
+[2025-11-26 09:04:35] Atualizando treeview de serviços...
+[2025-11-26 09:04:35] Selecionando serviço índice 489 automaticamente.
+[2025-11-26 09:04:35] Exibindo detalhes para serviço: ZUI_RAP_STATUSUSINA_O2
+[2025-11-26 09:04:35] Configuração salva.
+[2025-11-26 09:04:35] Usuário clicou no serviço índice 489.
+[2025-11-26 09:04:35] Exibindo detalhes para serviço: ZUI_RAP_STATUSUSINA_O2
+[2025-11-26 09:04:35] Configuração salva.
+[2025-11-26 09:04:35] Geometry após inicialização: 1920x1009+52+52
+[2025-11-26 09:04:53] Usuário clicou no serviço índice 104.
+[2025-11-26 09:04:53] Exibindo detalhes para serviço: ZEAM_OBJPG_MAINTENANCEORDER_SRV
+[2025-11-26 09:04:53] Configuração salva.
+[2025-11-26 09:05:51] Fechando aplicação. Salvando configuração e destruindo janela.
+[2025-11-26 09:05:51] Configuração salva.
+[2025-11-26 09:05:52] Aplicação finalizada (mainloop encerrado).
