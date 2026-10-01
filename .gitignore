@@ -1,0 +1,15 @@
+# Dados locais / sensíveis (usuário SAP, hash de senha, sessão, geometria)
+catalog_viewer_config.json
+catalog_viewer_config.json.tmp
+catalog_viewer.log
+catalog_viewer.log.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.spec
